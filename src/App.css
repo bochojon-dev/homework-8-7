@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1340px;
+}
+input {
+  padding: 20px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+button {
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
