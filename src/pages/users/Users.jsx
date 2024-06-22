@@ -19,7 +19,7 @@ const Users = () => {
         setData(res.data.data.users);
       })
       .catch((err) => console.log(err));
-  }, [data]);
+  }, []);
 
   return (
     <div className="container">
